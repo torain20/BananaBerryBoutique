@@ -1,0 +1,124 @@
+body{
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    width: 70px;
+    height: 65px;
+}
+
+nav{
+    background-color: rgb(89, 62, 110);
+    color: white;
+    padding: 20px 50px;
+}
+
+.navTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.searchInput{
+    border: none;
+    background-color: transparent;
+}
+
+.searchInput::placeholder{
+    color: lightgray;
+}
+
+.startShopping{
+    border-bottom: 2px solid white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.navBottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuItem{
+    margin-right: 50px;
+    color: lightgrey;
+    cursor: pointer;
+    font-weight: 200;
+}
+
+.slider{
+    overflow: hidden;
+}
+
+.sliderWrapper{
+    display: flex;
+    width: 500vw;
+    transition: all 1.5s ease-in-out;
+}
+
+.sliderItem{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.buyButton {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    border: 1px solid gray;
+    background-color: black;
+    cursor: pointer;
+  }
+  
+  .buyButton:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .features{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 50px;
+  }
+
+  .feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .featureIcon{
+      width: 50px;
+      height: 50px;
+  }
+
+  .featureTitle{
+      font-size: 20px;
+      font-weight: 600;
+      margin: 20px;
+  }
+
+  .featureDesc{
+      color: lightgray;
+      width: 50%;
+      height: 100px;
+  }
